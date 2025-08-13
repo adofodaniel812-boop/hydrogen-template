@@ -11,7 +11,7 @@ type PartialSearchResult<ItemType extends keyof SearchItems> = Pick<
 
 type SearchResultsProps = RegularSearchReturn & {
   children: (args: SearchItems & {term: string}) => React.ReactNode;
-};
+}; 
 
 export function SearchResults({
   term,
