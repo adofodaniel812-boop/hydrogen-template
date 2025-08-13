@@ -7,7 +7,7 @@ export function AddToCartButton({
   disabled,
   lines,
   onClick,
-}: {
+}: { 
   analytics?: unknown;
   children: React.ReactNode;
   disabled?: boolean;
