@@ -9,7 +9,7 @@ import {redirect, type LoaderFunctionArgs} from '@netlify/remix-runtime';
  * ```js
  * /discount/FREESHIPPING?redirect=/products
  *
- * ```
+ * ``` 
  */
 export async function loader({request, context, params}: LoaderFunctionArgs) {
   const {cart} = context;
