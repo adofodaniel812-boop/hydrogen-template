@@ -7,7 +7,7 @@ export async function loader({context}: LoaderFunctionArgs) {
 
   if (!policies.length) {
     throw new Response('No policies found', {status: 404});
-  }
+  } 
 
   return json({policies});
 }
