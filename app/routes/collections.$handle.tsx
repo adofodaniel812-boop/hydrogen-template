@@ -3,7 +3,7 @@ import {useLoaderData, Link, type MetaFunction} from '@remix-run/react';
 import {
   getPaginationVariables,
   Image,
-  Money,
+  Money, 
   Analytics,
 } from '@shopify/hydrogen';
 import type {ProductItemFragment} from 'storefrontapi.generated';
