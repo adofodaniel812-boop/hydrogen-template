@@ -5,7 +5,7 @@ import {useMemo} from 'react';
 export function useVariantUrl(
   handle: string,
   selectedOptions: SelectedOption[],
-) {
+) { 
   const {pathname} = useLocation();
 
   return useMemo(() => {
