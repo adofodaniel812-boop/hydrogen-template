@@ -5,4 +5,4 @@ export async function loader({context}: LoaderFunctionArgs) {
   await context.customerAccount.handleAuthStatus();
 
   return redirect('/account');
-}
+} 
