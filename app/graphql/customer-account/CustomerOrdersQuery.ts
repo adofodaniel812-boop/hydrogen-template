@@ -10,7 +10,7 @@ export const ORDER_ITEM_FRAGMENT = `#graphql
       nodes {
         status
       }
-    }
+    } 
     id
     number
     processedAt
