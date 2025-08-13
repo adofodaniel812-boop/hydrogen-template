@@ -3,7 +3,7 @@ import {Image} from '@shopify/hydrogen';
 
 export function ProductImage({
   image,
-}: {
+}: { 
   image: ProductVariantFragment['image'];
 }) {
   if (!image) {
