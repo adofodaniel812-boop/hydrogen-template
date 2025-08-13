@@ -4,7 +4,7 @@ export const UPDATE_ADDRESS_MUTATION = `#graphql
     $address: CustomerAddressInput!
     $addressId: ID!
     $defaultAddress: Boolean
- ) {
+ ) { 
     customerAddressUpdate(
       address: $address
       addressId: $addressId
