@@ -110,4 +110,4 @@ const ARTICLE_QUERY = `#graphql
       }
     }
   }
-` as const;
+` as const; 
