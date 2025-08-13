@@ -2,7 +2,7 @@ import {createContext, type ReactNode, useContext, useState} from 'react';
 
 type AsideType = 'search' | 'cart' | 'mobile' | 'closed';
 type AsideContextValue = {
-  type: AsideType;
+  type: AsideType; 
   open: (mode: AsideType) => void;
   close: () => void;
 };
