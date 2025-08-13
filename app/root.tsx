@@ -28,7 +28,7 @@ export const shouldRevalidate: ShouldRevalidateFunction = ({
   nextUrl,
   defaultShouldRevalidate,
 }) => {
-  // revalidate when a mutation is performed e.g add to cart, login...
+  // revalidate when a mutation is performed e.g add to cart, login....
   if (formMethod && formMethod !== 'GET') return true;
 
   // revalidate when manually revalidating via useRevalidator
