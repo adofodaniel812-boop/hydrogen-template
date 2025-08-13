@@ -22,7 +22,7 @@ Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dov
 
 ## Getting started
 
-We highly recommend using this template to deploy a Hydrogen site to Netlify.
+We highly recommend using this template to deploy a Hydrogen site to Netlify etc
 
 **Requirements:**
 
