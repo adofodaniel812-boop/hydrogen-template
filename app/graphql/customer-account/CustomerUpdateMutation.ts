@@ -18,7 +18,7 @@ export const CUSTOMER_UPDATE_MUTATION = `#graphql
         code
         field
         message
-      }
+      } 
     }
   }
 ` as const;
