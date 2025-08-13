@@ -4,7 +4,7 @@ import {CUSTOMER_DETAILS_QUERY} from '~/graphql/customer-account/CustomerDetails
 
 export function shouldRevalidate() {
   return true;
-}
+} 
 
 export async function loader({context}: LoaderFunctionArgs) {
   const {data, errors} = await context.customerAccount.query(
