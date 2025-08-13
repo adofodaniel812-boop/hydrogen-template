@@ -21,7 +21,7 @@ export default {
       documents: ['./app/graphql/customer-account/*.{ts,tsx,js,jsx}'],
     },
 
-    // Add your own GraphQL projects here for CMS, Shopify Admin API, etc.
+    // Include your own GraphQL projects here for CMS, Shopify Admin API, etc.
   },
 };
 
