@@ -11,6 +11,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/naming-convention': 'off',
     'hydrogen/prefer-image-component': 'off',
-    'no-case-declarations': 'off',
+    'no-case-declarations': 'off',.
   },
 };
