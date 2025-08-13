@@ -6,7 +6,7 @@ interface FooterProps {
   footer: Promise<FooterQuery | null>;
   header: HeaderQuery;
   publicStoreDomain: string;
-}
+} 
 
 export function Footer({
   footer: footerPromise,
