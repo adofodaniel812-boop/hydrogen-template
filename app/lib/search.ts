@@ -1,4 +1,4 @@
-import type {
+import type { 
   PredictiveSearchQuery,
   RegularSearchQuery,
 } from 'storefrontapi.generated';
