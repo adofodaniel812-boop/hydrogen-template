@@ -1,7 +1,7 @@
 import {Link, useLoaderData, type MetaFunction} from '@remix-run/react';
 import {
   Money,
-  getPaginationVariables,
+  getPaginationVariables, 
   flattenConnection,
 } from '@shopify/hydrogen';
 import {json, type LoaderFunctionArgs} from '@netlify/remix-runtime';
