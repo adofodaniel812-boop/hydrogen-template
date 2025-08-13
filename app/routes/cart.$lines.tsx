@@ -17,7 +17,7 @@ import {redirect, type LoaderFunctionArgs} from '@netlify/remix-runtime';
  * /cart/41007289663544:1,41007289696312:2?discount=HYDROBOARD
  *
  * ```
- */
+ */ 
 export async function loader({request, context, params}: LoaderFunctionArgs) {
   const {cart} = context;
   const {lines} = params;
