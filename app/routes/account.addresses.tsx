@@ -1,6 +1,6 @@
 import type {CustomerAddressInput} from '@shopify/hydrogen/customer-account-api-types';
 import type {
-  AddressFragment,
+  AddressFragment, 
   CustomerFragment,
 } from 'customer-accountapi.generated';
 import {
