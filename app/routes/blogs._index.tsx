@@ -15,7 +15,7 @@ export async function loader(args: LoaderFunctionArgs) {
   const criticalData = await loadCriticalData(args);
 
   return defer({...deferredData, ...criticalData});
-}
+} 
 
 /**
  * Load data necessary for rendering content above the fold. This is the critical data
