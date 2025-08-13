@@ -5,7 +5,7 @@ type SearchFormProps = Omit<FormProps, 'children'> & {
   children: (args: {
     inputRef: React.RefObject<HTMLInputElement>;
   }) => React.ReactNode;
-};
+}; 
 
 /**
  * Search form component that sends search requests to the `/search` route.
