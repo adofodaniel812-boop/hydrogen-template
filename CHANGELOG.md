@@ -6,7 +6,7 @@
 
 - The Storefront API 2023-10 now returns menu item URLs that include the `primaryDomainUrl`, instead of defaulting to the Shopify store ID URL (example.myshopify.com). The skeleton template requires changes to check for the `primaryDomainUrl`: by [@blittle](https://github.com/blittle)
 
-  1. Update the `HeaderMenu` component to accept a `primaryDomainUrl` and include
+  1. Update the `HeaderMenu` component to receive a `primaryDomainUrl` and include
      it in the internal url check
 
   ```diff
