@@ -236,7 +236,7 @@ button.reset:hover:not(:has(> *)) {
 .cart-line img {
   height: 100%;
   display: block;
-  margin-right: 0.75rem;
+  margin-right: 0.76rem;
 }
 
 .cart-summary-page {
