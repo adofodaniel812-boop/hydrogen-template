@@ -8,7 +8,7 @@ import type {RootLoader} from '~/root';
 
 export const meta: MetaFunction = () => {
   return [{title: `Hydrogen | Cart`}];
-};
+}; 
 
 export async function action({request, context}: ActionFunctionArgs) {
   const {cart} = context;
