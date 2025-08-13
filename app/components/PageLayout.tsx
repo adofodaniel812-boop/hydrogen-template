@@ -1,6 +1,6 @@
 import {Await, Link} from '@remix-run/react';
 import {Suspense} from 'react';
-import type {
+import type { 
   CartApiQueryFragment,
   FooterQuery,
   HeaderQuery,
