@@ -7,4 +7,4 @@ export async function loader() {
 
 export async function action({context}: ActionFunctionArgs) {
   return context.customerAccount.logout();
-}
+} 
