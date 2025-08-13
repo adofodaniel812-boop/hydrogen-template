@@ -5,7 +5,7 @@ import {CartForm, Money, type OptimisticCart} from '@shopify/hydrogen';
 type CartSummaryProps = {
   cart: OptimisticCart<CartApiQueryFragment | null>;
   layout: CartLayout;
-};
+}; 
 
 export function CartSummary({cart, layout}: CartSummaryProps) {
   const className =
