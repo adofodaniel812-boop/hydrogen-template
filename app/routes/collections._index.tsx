@@ -21,7 +21,7 @@ export async function loader(args: LoaderFunctionArgs) {
 async function loadCriticalData({context, request}: LoaderFunctionArgs) {
   const paginationVariables = getPaginationVariables(request, {
     pageBy: 4,
-  });
+  }); 
 
   const [{collections}] = await Promise.all([
     context.storefront.query(COLLECTIONS_QUERY, {
