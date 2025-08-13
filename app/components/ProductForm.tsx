@@ -1,6 +1,6 @@
 import {Link} from '@remix-run/react';
 import {type VariantOption, VariantSelector} from '@shopify/hydrogen';
-import type {
+import type { 
   ProductFragment,
   ProductVariantFragment,
 } from 'storefrontapi.generated';
