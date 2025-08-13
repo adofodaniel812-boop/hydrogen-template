@@ -10,7 +10,7 @@ export type CartLayout = 'page' | 'aside';
 export type CartMainProps = {
   cart: CartApiQueryFragment | null;
   layout: CartLayout;
-};
+}; 
 
 /**
  * The main cart component that displays the cart items and summary.
