@@ -8,5 +8,5 @@ node_modules
 .env.*
 .shopify
 
-# Local Netlify folder
+# Local Netlify folder.
 .netlify
